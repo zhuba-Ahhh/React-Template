@@ -1,14 +1,14 @@
-import react from '@vitejs/plugin-react-swc'
-import { resolve } from 'path'
-import AutoImport from 'unplugin-auto-import/vite'
-import type { ConfigEnv } from 'vite'
-import { defineConfig, loadEnv } from 'vite'
+import react from '@vitejs/plugin-react-swc';
+import { resolve } from 'path';
+import AutoImport from 'unplugin-auto-import/vite';
+import type { ConfigEnv } from 'vite';
+import { defineConfig, loadEnv } from 'vite';
 
 // https://vitejs.dev/config/
 export default ({ command, mode }: ConfigEnv) => {
-  const currentEnv = loadEnv(mode, process.cwd())
-  console.log('当前模式', command)
-  console.log('当前环境配置', currentEnv) //loadEnv即加载根目录下.env.[mode]环境配置文件
+  const currentEnv = loadEnv(mode, process.cwd());
+  console.log('当前模式', command);
+  console.log('当前环境配置', currentEnv); //loadEnv即加载根目录下.env.[mode]环境配置文件
   return defineConfig({
     plugins: [
       react(),
@@ -18,9 +18,9 @@ export default ({ command, mode }: ConfigEnv) => {
         dirs: ['src/store'],
         eslintrc: {
           enabled: true, // Default `false`
-          filepath: './.eslintrc-auto-import.json', // Default `./.eslintrc-auto-import.json`
-        },
-      }),
+          filepath: './.eslintrc-auto-import.json' // Default `./.eslintrc-auto-import.json`
+        }
+      })
     ],
     //项目部署的基础路径,
     base: currentEnv.VITE_PUBLIC_PATH,
@@ -33,8 +33,8 @@ export default ({ command, mode }: ConfigEnv) => {
         '@store': resolve(__dirname, './src/store'),
         '@views': resolve(__dirname, './src/views'),
         '@assets': resolve(__dirname, './src/assets'),
-        '@hooks': resolve(__dirname, './src/hooks'),
-      },
+        '@hooks': resolve(__dirname, './src/hooks')
+      }
     },
     //服务
     server: {
@@ -44,23 +44,23 @@ export default ({ command, mode }: ConfigEnv) => {
         '/api': {
           target: 'http://xxxxxx.com',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/api/, ''),
-        },
-      },
+          rewrite: (path) => path.replace(/^\/api/, '')
+        }
+      }
     },
     css: {
       // css预处理器
       preprocessorOptions: {
         sass: {
-          javascriptEnabled: true,
-        },
-      },
+          javascriptEnabled: true
+        }
+      }
     },
     //构建
     build: {
       outDir: mode === 'docker' ? 'dist' : 'dist', //输出路径
       //构建后是否生成 source map 文件
-      sourcemap: mode != 'production',
+      sourcemap: mode != 'production'
       //打包去掉打印信息 保留debugger vite3需要单独安装terser才行
       // minify: 'terser',
       // terserOptions: {
@@ -69,6 +69,6 @@ export default ({ command, mode }: ConfigEnv) => {
       //     drop_debugger: false,
       //   },
       // },
-    },
-  })
-}
+    }
+  });
+};

@@ -1,13 +1,13 @@
-import { useVcosole } from '@hooks/useVconsole'
+import { useVcosole } from '@hooks/useVconsole';
 
-import MyRoutes from '@/router'
+import MyRoutes from '@/router';
 // 这个是全局的页面 还可以做一些其他的操作
 
 export default function App() {
-  useVcosole()
+  useVcosole();
   return (
     <div>
       <MyRoutes />
     </div>
-  )
+  );
 }

@@ -1,3 +1,3 @@
 export default function Header() {
-  return <div>Header组件</div>
+  return <div>Header组件</div>;
 }

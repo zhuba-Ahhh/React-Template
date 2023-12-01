@@ -1,17 +1,17 @@
-import { useRoutes } from 'react-router-dom'
+import { useRoutes } from 'react-router-dom';
 
-import About from '@/views/About'
-import Home from '@/views/Home'
+import About from '@/views/About';
+import Home from '@/views/Home';
 
 export default function Router() {
   return useRoutes([
     {
       path: '/',
-      element: <Home />,
+      element: <Home />
     },
     {
       path: '/about',
-      element: <About />,
-    },
-  ])
+      element: <About />
+    }
+  ]);
 }
