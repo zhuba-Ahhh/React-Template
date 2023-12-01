@@ -23,7 +23,7 @@ function Home() {
       {contextHolder}
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={publicPath + 'vite.svg'} className={HomeStyle.logo} alt="Vite logo" />
+          <img src={publicPath + '/vite.svg'} className={HomeStyle.logo} alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank" rel="noreferrer">
           <img

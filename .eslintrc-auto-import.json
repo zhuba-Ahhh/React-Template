@@ -38,6 +38,11 @@
     "useState": true,
     "useSyncExternalStore": true,
     "useTransition": true,
-    "useUserStore": true
+    "useUserStore": true,
+    "createSelectors": true,
+    "Decrement": true,
+    "Increment": true,
+    "useCountStore": true,
+    "getCount": true
   }
 }

@@ -5,9 +5,5 @@ import MyRoutes from '@/router';
 
 export default function App() {
   useVcosole();
-  return (
-    <div>
-      <MyRoutes />
-    </div>
-  );
+  return <MyRoutes />;
 }
