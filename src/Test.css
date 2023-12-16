@@ -1,0 +1,18 @@
+:where(.css-dev-only-do-not-override-2q8sxy).ant-modal .ant-modal-footer {
+  text-align: center;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toolbar a {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.toolbar span {
+  font-size: 14px;
+  font-weight: 600;
+}

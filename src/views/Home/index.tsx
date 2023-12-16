@@ -3,6 +3,7 @@ import reactLogo from '@assets/react.svg';
 import { useUserStore } from '@store/user';
 import { Button, message } from 'antd';
 import { useNavigate } from 'react-router-dom';
+import { uuid } from 'zhuba-tools';
 
 import HomeStyle from './index.module.scss';
 
@@ -19,7 +20,7 @@ function Home() {
   };
 
   return (
-    <div className={HomeStyle.home}>
+    <div className={HomeStyle.home} key={uuid()}>
       {contextHolder}
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
@@ -36,7 +37,7 @@ function Home() {
           <img src={dockerLogo} className={HomeStyle.logo} alt="Docker logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Vite + React {uuid()}</h1>
       <div className={HomeStyle.card}>
         <button onClick={changeNum}>{`UserStore's count is ${num}`}</button>
         <p>
