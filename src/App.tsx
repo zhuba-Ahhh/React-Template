@@ -1,9 +1,9 @@
 import { useVcosole } from '@hooks/useVconsole';
 
-import MyRoutes from '@/router';
+import MyComponent from './Test';
 // 这个是全局的页面 还可以做一些其他的操作
 
 export default function App() {
   useVcosole();
-  return <MyRoutes />;
+  return <MyComponent />;
 }
