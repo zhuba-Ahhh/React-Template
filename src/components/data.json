@@ -1,0 +1,1929 @@
+{
+  "data": {
+    "hotmap": [
+      {
+        "biz_date": "20230115",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230116",
+        "update_doc_count": 5,
+        "level": 3,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230117",
+        "update_doc_count": 4,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230118",
+        "update_doc_count": 5,
+        "level": 3,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230119",
+        "update_doc_count": 24,
+        "level": 5,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230120",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230121",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230122",
+        "update_doc_count": 4,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230123",
+        "update_doc_count": 63,
+        "level": 5,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230124",
+        "update_doc_count": 3,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230125",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230126",
+        "update_doc_count": 21,
+        "level": 5,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230127",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230128",
+        "update_doc_count": 3,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230129",
+        "update_doc_count": 10,
+        "level": 4,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230130",
+        "update_doc_count": 21,
+        "level": 5,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230131",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230201",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230202",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230203",
+        "update_doc_count": 4,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230204",
+        "update_doc_count": 3,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230205",
+        "update_doc_count": 8,
+        "level": 3,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230206",
+        "update_doc_count": 105,
+        "level": 5,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230207",
+        "update_doc_count": 9,
+        "level": 3,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230208",
+        "update_doc_count": 21,
+        "level": 5,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230209",
+        "update_doc_count": 37,
+        "level": 5,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230210",
+        "update_doc_count": 5,
+        "level": 3,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230211",
+        "update_doc_count": 13,
+        "level": 4,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230212",
+        "update_doc_count": 16,
+        "level": 4,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230213",
+        "update_doc_count": 4,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230214",
+        "update_doc_count": 5,
+        "level": 3,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230215",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230216",
+        "update_doc_count": 6,
+        "level": 3,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230217",
+        "update_doc_count": 7,
+        "level": 3,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230218",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230219",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230220",
+        "update_doc_count": 8,
+        "level": 3,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230221",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230222",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230223",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230224",
+        "update_doc_count": 3,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230225",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230226",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230227",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230228",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230301",
+        "update_doc_count": 4,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230302",
+        "update_doc_count": 12,
+        "level": 4,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230303",
+        "update_doc_count": 23,
+        "level": 5,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230304",
+        "update_doc_count": 11,
+        "level": 4,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230305",
+        "update_doc_count": 7,
+        "level": 3,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230306",
+        "update_doc_count": 5,
+        "level": 3,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230307",
+        "update_doc_count": 27,
+        "level": 5,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230308",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230309",
+        "update_doc_count": 3,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230310",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230311",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230312",
+        "update_doc_count": 5,
+        "level": 3,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230313",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230314",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230315",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230316",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230317",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230318",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230319",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230320",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230321",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230322",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230323",
+        "update_doc_count": 3,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230324",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230325",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230326",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230327",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230328",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230329",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230330",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230331",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230401",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230402",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230403",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230404",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230405",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230406",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230407",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230408",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230409",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230410",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230411",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230412",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230413",
+        "update_doc_count": 1,
+        "update_note_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230414",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230415",
+        "update_doc_count": 3,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230416",
+        "update_doc_count": 3,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230417",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230418",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230419",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230420",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230421",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230422",
+        "update_doc_count": 4,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230423",
+        "update_doc_count": 3,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230424",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230425",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230426",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230427",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230428",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230429",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230430",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230501",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230502",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230503",
+        "update_doc_count": 3,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230504",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230505",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230506",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230507",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230508",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230509",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230510",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230511",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230512",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230513",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230514",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230515",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230516",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230517",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230518",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230519",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230520",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230521",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230522",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230523",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230524",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230525",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230526",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230527",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230528",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230529",
+        "update_doc_count": 3,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230530",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230531",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230601",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230602",
+        "update_doc_count": 6,
+        "level": 3,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230603",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230604",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230605",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230606",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230607",
+        "update_doc_count": 3,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230608",
+        "update_doc_count": 3,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230609",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230610",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230611",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230612",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230613",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230614",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230615",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230616",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230617",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230618",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230619",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230620",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230621",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230622",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230623",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230624",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230625",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230626",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230627",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230628",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230629",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230630",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230701",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230702",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230703",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230704",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230705",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230706",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230707",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230708",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230709",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230710",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230711",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230712",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230713",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230714",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230715",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230716",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230717",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230718",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230719",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230720",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230721",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230722",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230723",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230724",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230725",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230726",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230727",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230728",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230729",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230730",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230731",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230801",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230802",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230803",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230804",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230805",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230806",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230807",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230808",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230809",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230810",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230811",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230812",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230813",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230814",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230815",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230816",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230817",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230818",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230819",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230820",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230821",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230822",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230823",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230824",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230825",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230826",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230827",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230828",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230829",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230830",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230831",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230901",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230902",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230903",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230904",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230905",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230906",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230907",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230908",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230909",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230910",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230911",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230912",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230913",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230914",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230915",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230916",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230917",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230918",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230919",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230920",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230921",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230922",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230923",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230924",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230925",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230926",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230927",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230928",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230929",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20230930",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231001",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231002",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231003",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231004",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231005",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231006",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231007",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231008",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231009",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231010",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231011",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231012",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231013",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231014",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231015",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231016",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231017",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231018",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231019",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231020",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231021",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231022",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231023",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231024",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231025",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231026",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231027",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231028",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231029",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231030",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231031",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231101",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231102",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231103",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231104",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231105",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231106",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231107",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231108",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231109",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231110",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231111",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231112",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231113",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231114",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231115",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231116",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231117",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231118",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231119",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231120",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231121",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231122",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231123",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231124",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231125",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231126",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231127",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231128",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231129",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231130",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231201",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231202",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231203",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231204",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231205",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231206",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231207",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231208",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231209",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231210",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231211",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231212",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231213",
+        "update_doc_count": 1,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231214",
+        "update_doc_count": 4,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231215",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231216",
+        "update_doc_count": 4,
+        "level": 2,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231217",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231218",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231219",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231220",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231221",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231222",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231223",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231224",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231225",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231226",
+        "update_doc_count": 2,
+        "level": 1,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231227",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231228",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231229",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231230",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20231231",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20240101",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20240102",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20240103",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20240104",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20240105",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20240106",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20240107",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20240108",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20240109",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20240110",
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20240111",
+        "update_doc_count": 0,
+        "update_note_count": 0,
+        "comment_count": 0,
+        "level": 0,
+        "_serializer": "web.hotmap"
+      },
+      {
+        "biz_date": "20240112",
+        "update_doc_count": 0,
+        "update_note_count": 0,
+        "comment_count": 0,
+        "level": 0,
+        "_serializer": "web.hotmap"
+      }
+    ]
+  }
+}
