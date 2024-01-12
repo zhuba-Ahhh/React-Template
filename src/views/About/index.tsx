@@ -2,7 +2,8 @@ import { useUserStore } from '@store/user';
 import { Button } from 'antd';
 import { useNavigate } from 'react-router-dom';
 
-import YuQueHotMap from '../../components/YuQueHotMap';
+import GitHubHeatMap from '../../components/GitHubHeatMap';
+import YuQueHeatMap from '../../components/YuQueHeatMap';
 
 function About() {
   const [pageTitle] = useState('Ywj-关于页面');
@@ -18,7 +19,9 @@ function About() {
       <Button onClick={goBack}>返回</Button>
       <h2>userSore.num:{num}</h2>
       <button onClick={changeNum}>点击使用zustand提供的store改变数字</button>
-      <YuQueHotMap userId={27625077} />
+      <YuQueHeatMap userId={27625077} />
+      <div style={{ height: '20px' }}></div>
+      <GitHubHeatMap userName={'zhuba-Ahhh'} />
     </div>
   );
 }

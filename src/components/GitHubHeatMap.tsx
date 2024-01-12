@@ -1,29 +1,26 @@
+// https://github-contributions.vercel.app/api/v1/zhuba-Ahhh
 import { FC, Fragment, ReactNode, useEffect, useMemo, useState } from 'react';
 
-import dataJson from './data.json';
+import dataJson from './github.json';
 
-interface hotmapItem {
-  biz_date: string;
-  update_doc_count?: number;
-  update_note_count?: number;
-  comment_count?: number;
-  level?: number;
-  _serializer: string;
+interface contribution {
+  date: string;
+  count: number;
+  color: string;
+  intensity: string;
 }
 
 const levelColors: { [key: string]: string } = {
-  '-1': '#f5f5f5',
-  '0': '#f4f5f5',
-  '1': '#daf6ea',
-  '2': '#c7f0df',
-  '3': '#82edc0',
-  '4': '#00b96b',
-  '5': '#00663b'
+  '0': '#ebedf0',
+  '1': '#9be9a8',
+  '2': '#40c463',
+  '3': '#30a14e',
+  '4': '#40c463'
 };
 
 const getColor = (level?: number): string => {
   if (level === undefined) {
-    return '#f5f5f5';
+    return '#ebedf0';
   }
 
   return levelColors[level?.toString()] || levelColors['-1'];
@@ -56,24 +53,22 @@ const useDebounce = (callback: () => void, delay = 200) => {
   return (...args: Parameters<typeof callback>) => debounceCallback(...args);
 };
 
-const useFetchData = (userId: string | number, start: number, end: number) => {
-  const [data, setData] = useState<hotmapItem[]>([]);
+const useFetchData = (userName: string, start: number, end: number) => {
+  const [data, setData] = useState<contribution[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(
-          `https://www.yuque.com/api/users/${userId}/hotmap?end_date=${end}&start_date=${start}`
-        );
+        const response = await fetch(`https://github-contributions.vercel.app/api/v1/${userName}`);
         const jsonData = await response.json();
-        setData(jsonData.data.hotmap);
+        setData(jsonData.contributions);
       } catch (error) {
         console.log('fetch data failed', error);
       }
     };
 
     fetchData();
-  }, [userId, start, end]);
+  }, [userName, start, end]);
 
   return data;
 };
@@ -103,40 +98,38 @@ const Tooltip: FC<TooltipProps> = ({ content, children }: TooltipProps) => {
 
 interface Props {
   years?: number;
-  userId: number | string;
+  userName: string;
   showDesc?: boolean;
   boxSize?: number;
 }
 
-const YuQueHeatmap: FC<Props> = ({ years = 1, userId, showDesc = true, boxSize = 14 }: Props) => {
+const YuQueHeatmap: FC<Props> = ({ years = 1, userName, showDesc = true, boxSize = 14 }: Props) => {
   const [start, end] = useMemo(() => {
     const currentTime = new Date();
     const timestamp = currentTime.setFullYear(currentTime.getFullYear() - (years || 1));
-    return [timestamp, Date.now()];
+    return [timestamp - 7 * 24 * 3600, Date.now()];
   }, [years]);
 
-  const data = dataJson.data.hotmap;
-  useFetchData(userId, start, end);
+  const data = dataJson.contributions;
+  useFetchData(userName, start, end);
 
   const memoizedGetItem = useMemo(
-    () => (list: hotmapItem[], dt: string) => list.find((item) => item.biz_date === dt),
+    () => (list: contribution[], dt: string) => list.find((item) => item.date === dt),
     []
   );
 
   const renderExhibitionDesc = () => {
     return (
       <div className="descWrap">
-        <div className="left">
-          <span>创作指数</span>
-        </div>
+        <div className="left"></div>
         <div className="right">
-          <span className="rightSpan">不活跃</span>
+          <span className="rightSpan">Less</span>
           <div className="row">
-            {Array.from({ length: 7 }).map((_, index) => {
-              return <Fragment key={index}>{renderBox(getColor(index - 1))}</Fragment>;
+            {Array.from({ length: 5 }).map((_, index) => {
+              return <Fragment key={index}>{renderBox(getColor(index))}</Fragment>;
             })}
           </div>
-          <span className="rightSpan">活跃</span>
+          <span className="rightSpan">More</span>
         </div>
       </div>
     );
@@ -151,8 +144,8 @@ const YuQueHeatmap: FC<Props> = ({ years = 1, userId, showDesc = true, boxSize =
     );
   }, []);
 
-  const renderGrid = (data: hotmapItem[]) => {
-    const weekCount = 52;
+  const renderGrid = (data: contribution[]) => {
+    const weekCount = 53;
     const weekDay = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
     const gridData = [];
 
@@ -160,15 +153,13 @@ const YuQueHeatmap: FC<Props> = ({ years = 1, userId, showDesc = true, boxSize =
       const rowData = [];
       for (let week = 0; week < weekCount; week++) {
         const offsetDate = new Date(start + 24 * 3600 * 1000 * day + 7 * 24 * 3600 * 1000 * week);
-        const dt = getTime(offsetDate);
+        const dt = formatDateString(getTime(offsetDate));
         const item = memoizedGetItem(data, dt);
 
         rowData.push({
-          level: item?.level || undefined,
-          biz_date: dt,
-          content: `Date: ${formatDateString(dt)} ${weekDay[day]} Update Count: ${
-            item?.update_doc_count || 0
-          }`
+          color: item?.color || '#ebedf0',
+          date: dt,
+          content: `Date: ${dt} ${weekDay[day]} Update Count: ${item?.count || 0}`
         });
       }
       gridData.push(rowData);
@@ -179,9 +170,9 @@ const YuQueHeatmap: FC<Props> = ({ years = 1, userId, showDesc = true, boxSize =
         {showDesc && renderExhibitionDesc()}
         {gridData.map((rowData, rowIndex) => (
           <div key={rowIndex} className="row">
-            {rowData.map(({ biz_date, level, content }) => (
-              <Tooltip key={biz_date} content={content}>
-                {renderBox(getColor(level))}
+            {rowData.map(({ date, color, content }) => (
+              <Tooltip key={date} content={content}>
+                {renderBox(color)}
               </Tooltip>
             ))}
           </div>
