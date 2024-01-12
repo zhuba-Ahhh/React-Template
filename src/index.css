@@ -78,3 +78,7 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.ant-modal-footer {
+  text-align: center;
+}

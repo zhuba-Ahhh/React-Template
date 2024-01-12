@@ -3,6 +3,7 @@ import { resolve } from 'path';
 import AutoImport from 'unplugin-auto-import/vite';
 import type { ConfigEnv } from 'vite';
 import { defineConfig, loadEnv } from 'vite';
+import { chunkSplitPlugin } from 'vite-plugin-chunk-split';
 
 // https://vitejs.dev/config/
 export default ({ command, mode }: ConfigEnv) => {
@@ -19,6 +20,22 @@ export default ({ command, mode }: ConfigEnv) => {
         eslintrc: {
           enabled: true, // Default `false`
           filepath: './.eslintrc-auto-import.json' // Default `./.eslintrc-auto-import.json`
+        }
+      }),
+      chunkSplitPlugin({
+        strategy: 'single-vendor',
+        customChunk: (args) => {
+          // files into pages directory is export in single files
+          let { file } = args;
+          if (file.startsWith('src/views/')) {
+            file = file.substring(4);
+            file = file.replace(/\.[^.$]+$/, '');
+            return file;
+          }
+          return null;
+        },
+        customSplitting: {
+          utils: [/src\/tools/]
         }
       })
     ],
@@ -59,16 +76,26 @@ export default ({ command, mode }: ConfigEnv) => {
     //构建
     build: {
       outDir: mode === 'docker' ? 'dist' : 'dist', //输出路径
+      chunkSizeWarningLimit: 1000,
       //构建后是否生成 source map 文件
-      sourcemap: mode != 'production'
+      sourcemap: mode != 'production',
       //打包去掉打印信息 保留debugger vite3需要单独安装terser才行
-      // minify: 'terser',
-      // terserOptions: {
-      //   compress: {
-      //     drop_console: true,
-      //     drop_debugger: false,
-      //   },
-      // },
+      minify: 'terser',
+      terserOptions: {
+        compress: {
+          drop_console: true,
+          drop_debugger: false
+        }
+      },
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('node_modules')) {
+              return id.toString().split('node_modules/')[1].split('/')[0].toString();
+            }
+          }
+        }
+      }
     }
   });
 };
