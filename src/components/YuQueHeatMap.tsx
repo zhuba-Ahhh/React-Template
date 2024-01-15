@@ -148,21 +148,29 @@ const YuQueHeatmap: FC<Props> = ({ years = 1, userId, showDesc = true, boxSize =
     );
   }, []);
 
+  const renderFutureBox = useCallback(() => {
+    return <div className="box futureBox" style={{ height: boxSize, width: boxSize }}></div>;
+  }, []);
+
   const renderGrid = (data: hotmapItem[]) => {
     const weekCount = 53;
     const weekDay = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
     const gridData = [];
+    const today = getTime(new Date());
 
     for (let day = 0; day < weekDay.length; day++) {
       const rowData = [];
       for (let week = 0; week < weekCount; week++) {
-        const offsetDate = new Date(start + 24 * 3600 * 1000 * day + 7 * 24 * 3600 * 1000 * week);
-        const dt = getTime(offsetDate);
+        const offsetDate = getTime(
+          new Date(start + 24 * 3600 * 1000 * day + 7 * 24 * 3600 * 1000 * week)
+        );
+        const dt = offsetDate;
         const item = memoizedGetItem(data, dt);
 
         rowData.push({
-          level: item?.level || undefined,
           biz_date: dt,
+          isFuture: offsetDate <= today,
+          level: item?.level || undefined,
           content: `Date: ${formatDateString(dt)} ${weekDay[day]} Update Count: ${
             item?.update_doc_count || 0
           }`
@@ -176,9 +184,9 @@ const YuQueHeatmap: FC<Props> = ({ years = 1, userId, showDesc = true, boxSize =
         {showDesc && renderExhibitionDesc()}
         {gridData.map((rowData, rowIndex) => (
           <div key={rowIndex} className="row">
-            {rowData.map(({ biz_date, level, content }) => (
+            {rowData.map(({ biz_date, level, content, isFuture }) => (
               <Tooltip key={biz_date} content={content}>
-                {renderBox(getColor(level))}
+                {isFuture ? renderBox(getColor(level)) : renderFutureBox()}
               </Tooltip>
             ))}
           </div>

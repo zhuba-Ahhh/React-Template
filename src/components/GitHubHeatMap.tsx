@@ -141,22 +141,30 @@ const YuQueHeatmap: FC<Props> = ({ years = 1, userName, showDesc = true, boxSize
     );
   }, []);
 
+  const renderFutureBox = useCallback(() => {
+    return <div className="box futureBox" style={{ height: boxSize, width: boxSize }}></div>;
+  }, []);
+
   const renderGrid = (data: contribution[]) => {
     const weekCount = 53;
     const weekDay = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
     const gridData = [];
+    const today = getTime(new Date());
 
     for (let day = 0; day < weekDay.length; day++) {
       const rowData = [];
       for (let week = 0; week < weekCount; week++) {
-        const offsetDate = new Date(start + 24 * 3600 * 1000 * day + 7 * 24 * 3600 * 1000 * week);
-        const dt = formatDateString(getTime(offsetDate));
+        const offsetDate = getTime(
+          new Date(start + 24 * 3600 * 1000 * day + 7 * 24 * 3600 * 1000 * week)
+        );
+        const dt = formatDateString(offsetDate);
         const item = memoizedGetItem(data, dt);
 
         rowData.push({
           color: item?.color || '#ebedf0',
           date: dt,
-          content: `Date: ${dt} ${weekDay[day]} Update Count: ${item?.count || 0}`
+          content: `Date: ${dt} ${weekDay[day]} Update Count: ${item?.count || 0}`,
+          isFuture: offsetDate <= today
         });
       }
       gridData.push(rowData);
@@ -167,9 +175,9 @@ const YuQueHeatmap: FC<Props> = ({ years = 1, userName, showDesc = true, boxSize
         {showDesc && renderExhibitionDesc()}
         {gridData.map((rowData, rowIndex) => (
           <div key={rowIndex} className="row">
-            {rowData.map(({ date, color, content }) => (
+            {rowData.map(({ date, color, content, isFuture }) => (
               <Tooltip key={date} content={content}>
-                {renderBox(color)}
+                {isFuture ? renderBox(color) : renderFutureBox()}
               </Tooltip>
             ))}
           </div>
@@ -239,5 +247,8 @@ const styles = `
 .box {
   margin: 2px;
   border-radius: 2px;
+}
+.futureBox {
+  border: 1px solid #f5f5f5;
 }
 `;
