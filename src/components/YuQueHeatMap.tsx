@@ -1,7 +1,5 @@
 import { FC, Fragment, ReactNode, useEffect, useMemo, useState } from 'react';
 
-import dataJson from './yuque.json';
-
 interface hotmapItem {
   biz_date: string;
   update_doc_count?: number;
@@ -63,7 +61,7 @@ const useFetchData = (userId: string | number, start: number, end: number) => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `https://www.yuque.com/api/users/${userId}/hotmap?end_date=${end}&start_date=${start}`
+          `/api/yuque/${userId}/hotmap?end_date=${end}&start_date=${start}`
         );
         const jsonData = await response.json();
         setData(jsonData.data.hotmap);
@@ -115,8 +113,7 @@ const YuQueHeatmap: FC<Props> = ({ years = 1, userId, showDesc = true, boxSize =
     return [timestamp - 7 * 24 * 3600, Date.now()];
   }, [years]);
 
-  const data = dataJson.data.hotmap;
-  useFetchData(userId, start, end);
+  const data = useFetchData(userId, start, end);
 
   const memoizedGetItem = useMemo(
     () => (list: hotmapItem[], dt: string) => list.find((item) => item.biz_date === dt),
