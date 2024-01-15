@@ -1,8 +1,6 @@
 // https://github-contributions.vercel.app/api/v1/zhuba-Ahhh
 import { FC, Fragment, ReactNode, useEffect, useMemo, useState } from 'react';
 
-import dataJson from './github.json';
-
 interface contribution {
   date: string;
   count: number;
@@ -59,7 +57,7 @@ const useFetchData = (userName: string, start: number, end: number) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://github-contributions.vercel.app/api/v1/${userName}`);
+        const response = await fetch(`/api/github-contributions/${userName}`);
         const jsonData = await response.json();
         setData(jsonData.contributions);
       } catch (error) {
@@ -110,8 +108,7 @@ const YuQueHeatmap: FC<Props> = ({ years = 1, userName, showDesc = true, boxSize
     return [timestamp - 7 * 24 * 3600, Date.now()];
   }, [years]);
 
-  const data = dataJson.contributions;
-  useFetchData(userName, start, end);
+  const data = useFetchData(userName, start, end);
 
   const memoizedGetItem = useMemo(
     () => (list: contribution[], dt: string) => list.find((item) => item.date === dt),

@@ -58,10 +58,15 @@ export default ({ command, mode }: ConfigEnv) => {
       //自定义代理---解决跨域
       proxy: {
         // 选项写法
-        '/api': {
-          target: 'http://xxxxxx.com',
+        '/api/yuque': {
+          target: 'https://www.yuque.com/api/users',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/api/, '')
+          rewrite: (path) => path.replace(/^\/api\/yuque/, '')
+        },
+        '/api/github-contributions': {
+          target: 'https://github-contributions.vercel.app',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/api\/github-contributions/, '/api/v1')
         }
       }
     },
